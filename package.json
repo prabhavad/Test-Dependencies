@@ -1,0 +1,48 @@
+{
+  "name": "fk-cp-accounts",
+  "version": "1.0.1",
+  "description": "Richview Accounts app",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "compression-webpack-plugin": "^0.3.1",
+    "fk-cp-shared": "1.0.91",
+    "form-serialize": "^0.6.0",
+    "json-loader": "^0.5.1",
+    "keymirror": "^0.1.1",
+    "phrontend": "0.0.3",
+    "phrontend-webpack": "0.0.2",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.0.10",
+    "eslint": "^1.1.0",
+    "webpack": "^1.12.0",
+    "webpack-core": "^0.6.6",
+    "webpack-dev-middleware": "^1.2.0"
+  },
+  "scripts": {
+    "deploy": "sh ./utils/trigger_build.sh",
+    "ci": "sh ./utils/ci.sh",
+    "release-pack": "webpack --config=release.config.js",
+    "prepublish": "./utils/prepublish",
+    "lint": "eslint components/ actions/ states/ collections/ stores/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node server.js",
+    "ios": "PLATFORM=ios npm run build",
+    "android": "PLATFORM=android npm run build",
+    "windows": "PLATFORM=windows npm run build"
+  },
+  "registry": ",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
