@@ -54,9 +54,31 @@ def GradleParser(file):
 		Op.write(r+"\n")
 
 def JSONParser(file):
-	with open(directory+file) as json_data:
+	with open(directory + file) as json_data:
 	    d = json.load(json_data)
-	    Op.write(str(d["dependencies"]))
+	    try:
+	    	s = str(d["dependencies"])
+	    	if s:
+	    		Op.write("Dependencies\n")
+	    		Op.write(s + '\n')
+	    except:
+	    	pass
+	    
+	    try:
+	    	s = str(d["devDependencies"])
+	    	if s:
+	    		Op.write("devDependencies\n")
+	    		Op.write(s + '\n')
+	    except:
+	    	pass
+
+	    try:
+	    	s = d["peerDependencies"]
+	    	if s:
+	    		Op.write("peerDependencies\n")
+	    		Op.write(s + '\n')
+	    except:
+	    	pass
 
 def Process(file,ext):
 	Op.write(file+'\n')

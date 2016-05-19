@@ -1,6 +1,10 @@
 package.json
 JSON Dependencies
+Dependencies
 {u'form-serialize': u'^0.6.0', u'compression-webpack-plugin': u'^0.3.1', u'phrontend': u'0.0.3', u'keymirror': u'^0.1.1', u'react': u'^0.13.3', u'react-router': u'^0.13.3', u'classnames': u'^2.1.2', u'json-loader': u'^0.5.1', u'phrontend-webpack': u'0.0.2', u'fk-cp-shared': u'1.0.91'}
+devDependencies
+{u'webpack': u'^1.12.0', u'webpack-dev-middleware': u'^1.2.0', u'eslint': u'^1.1.0', u'babel-eslint': u'^4.0.10', u'webpack-core': u'^0.6.6'}
+
 -----------------------------------
 pom_1.xml
 pom.xml Dependencies
@@ -156,7 +160,11 @@ Dependencies.txt
 Python Dependencies(.txt)
 package.json
 JSON Dependencies
+Dependencies
 {u'form-serialize': u'^0.6.0', u'compression-webpack-plugin': u'^0.3.1', u'phrontend': u'0.0.3', u'keymirror': u'^0.1.1', u'react': u'^0.13.3', u'react-router': u'^0.13.3', u'classnames': u'^2.1.2', u'json-loader': u'^0.5.1', u'phrontend-webpack': u'0.0.2', u'fk-cp-shared': u'1.0.91'}
+devDependencies
+{u'webpack': u'^1.12.0', u'webpack-dev-middleware': u'^1.2.0', u'eslint': u'^1.1.0', u'babel-eslint': u'^4.0.10', u'webpack-core': u'^0.6.6'}
+
 -----------------------------------
 pom_1.xml
 pom.xml Dependencies
@@ -288,14 +296,5 @@ iso8601==0.1.10
 itsdangerous==0.24
 raven==5.5.0
 statsd==3.1
-uWSGI==2.0.11.1
-wsgiref==0.1.2
------------------------------------
-requirements.txt
-Python Dependencies(.txt)
-
-Django==1.8.4
-django-requestlogging==1.0.1
-requests==2.7.0
-simp
+uW
 -----------------------------------
