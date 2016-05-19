@@ -1,0 +1,13 @@
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+PyMySQL==0.6.3
+Werkzeug==0.10.4
+blinker==1.4
+httplib2==0.9.1
+iso8601==0.1.10
+itsdangerous==0.24
+raven==5.5.0
+statsd==3.1
+uWSGI==2.0.11.1
+wsgiref==0.1.2
