@@ -2,6 +2,8 @@ import os
 import re
 import requests
 from bs4 import BeautifulSoup
+import json
+from pprint import pprint
 
 directory = raw_input()
 if(directory[len(directory)-1]=='/'):
@@ -51,12 +53,21 @@ def GradleParser(file):
 	for r in result:
 		Op.write(r+"\n")
 
+def JSONParser(file):
+	with open(directory+file) as json_data:
+	    d = json.load(json_data)
+	    Op.write(str(d["dependencies"]))
+
 def Process(file,ext):
 	Op.write(file+'\n')
 	if(ext == 'json'):
 		Op.write("JSON Dependencies\n")
+		JSONParser(file)
 	elif(ext == 'txt'):
 		Op.write("Python Dependencies(.txt)\n")
+		f = open(directory+file,'r')
+		Op.write(f.read())
+		
 	elif(ext == 'gradle'):
 		Op.write("build.gradle Dependencies\n")
 		GradleParser(file)
@@ -67,6 +78,7 @@ def Process(file,ext):
 		Op.write("lock Dependencies\n")
 		GemParser(file)
 	Op.write ("\n-----------------------------------\n")
+
 
 
 for files in os.listdir(directory):
