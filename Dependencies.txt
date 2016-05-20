@@ -1,4 +1,83 @@
+<<<<<<< HEAD
 ./POM 2/pom.xml
+=======
+package.json
+JSON Dependencies
+Dependencies
+{u'form-serialize': u'^0.6.0', u'compression-webpack-plugin': u'^0.3.1', u'phrontend': u'0.0.3', u'keymirror': u'^0.1.1', u'react': u'^0.13.3', u'react-router': u'^0.13.3', u'classnames': u'^2.1.2', u'json-loader': u'^0.5.1', u'phrontend-webpack': u'0.0.2', u'fk-cp-shared': u'1.0.91'}
+devDependencies
+{u'webpack': u'^1.12.0', u'webpack-dev-middleware': u'^1.2.0', u'eslint': u'^1.1.0', u'babel-eslint': u'^4.0.10', u'webpack-core': u'^0.6.6'}
+
+-----------------------------------
+Gemfile.lock
+lock Dependencies
+DEPENDENCIES
+  actionpack
+  activeldap
+  activerecord (= 3.1.6.patched)
+  activerecord-import (= 0.3.2)
+  activerecord-jdbcmysql-adapter
+  activerecord_use_slave (= 0.0.5)
+  amqp
+  apl-bu-resolver (= 1.0.15)
+  apl-client (= 0.1.3)
+  apl-id-generator (= 0.0.19)
+  apl-library (= 0.7.7.8)
+  apl-metrics (= 0.1.2)
+  apl_id_generator (= 0.0.6.alpha)
+  apl_sequencer (= 0.0.9)
+  ci_reporter
+  database_cleaner
+  decimal-money (= 5.1.1.patched)
+  factory_girl
+  idempotency (= 0.0.6)
+  jruby-openssl (= 0.7.6.1.patched)
+  jruby-rack (= 1.1.4)
+  json (= 1.7.3)
+  mocha
+  mysql2 (= 0.3.16)
+  net-ldap
+  numbers_in_words (= 0.2.0)
+  padrino (= 0.10.5.patched)
+  rack (= 1.3.6)
+  rack-metrics (= 1.0.4)
+  rack-test
+  rake (= 10.0.3)
+  rest-client
+  rubycas-client (= 2.3.11.patched)
+  sc-auth (= 1.1.1)
+  sc-cache (= 0.0.13)
+  sc-core (= 1.1.67)
+  sc-lock (= 1.0.0)
+  sc-metrics
+  sc-mq (= 0.1.3.partitioned)
+  sc-rest-client (= 1.1.0)
+  sc-test-core (= 0.0.95)
+  shoulda (= 3.3.2)
+  shoulda-context (= 1.0.2)
+  shoulda-matchers (= 1.4.2)
+  simplecov
+  simplecov-rcov (= 0.2.3)
+  sinatra-flash
+  state_machine
+  test-unit (= 2.4.8)
+  thin (= 1.3.1)
+  transaction_isolation
+  trinidad
+  uuidtools
+  validates_timeliness
+  webmock (= 1.8.6)
+  xml-simple
+  yajl-ruby (= 1.1.0)
+  yard
+  yard-padrino
+  zk-lock (= 0.0.6)
+
+
+-----------------------------------
+pom.xml
+pom.xml Dependencies
+>>>>>>> 4066e580f1709eaf92d5dd0e1606593c46c6827d
 1.   org.apache.commons commons-collections4 4.0
 2.   org.apache.commons commons-io 1.3.2
 3.   org.codehaus.jackson jackson-core-asl 1.9.13
@@ -13,6 +92,7 @@
 12.   flipkart.platform.libraries.platform-utils base 2.3.5
 
 -----------------------------------
+<<<<<<< HEAD
 ./ Req 2/requirements.txt
 Flask==0.10.1
 Jinja2==2.7.3
@@ -145,3 +225,22 @@ simplejson==3.8.0
     
 
 -----------------------------------
+=======
+requirements.txt
+Python Dependencies(.txt)
+
+Django==1.8.4
+django-requestlogging==1.0.1
+requests==2.7.0
+simplejson==3.8.0
+-----------------------------------
+build.gradle
+build.gradle Dependencies
+
+        classpath GRADLE_PLUGIN_VERSION
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:2.2.3'
+    
+
+-----------------------------------
+>>>>>>> 4066e580f1709eaf92d5dd0e1606593c46c6827d
