@@ -11,7 +11,7 @@ if(directory[len(directory)-1]=='/'):
 else:
 	directory = directory + '/'
 
-Files = ["json","txt","xml","gradle","lock"]
+Files = ["package.json","requirements.txt","pom.xml","build.gradle","Gemfile.lock"]
 Op = open("Dependencies.txt","w")
 
 def GemParser(file):
@@ -106,7 +106,7 @@ def Process(file,ext):
 for files in os.listdir(directory):
 	filename = files.split('.')
 	if(len(filename)==2 and filename[0]!=""):
-		if(filename[1] in Files):
+		if(files in Files):
 			#print filename[1]
 			Process(files,filename[1])
 
