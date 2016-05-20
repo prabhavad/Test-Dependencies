@@ -1,114 +1,4 @@
-package.json
-JSON Dependencies
-Dependencies
-{u'form-serialize': u'^0.6.0', u'compression-webpack-plugin': u'^0.3.1', u'phrontend': u'0.0.3', u'keymirror': u'^0.1.1', u'react': u'^0.13.3', u'react-router': u'^0.13.3', u'classnames': u'^2.1.2', u'json-loader': u'^0.5.1', u'phrontend-webpack': u'0.0.2', u'fk-cp-shared': u'1.0.91'}
-devDependencies
-{u'webpack': u'^1.12.0', u'webpack-dev-middleware': u'^1.2.0', u'eslint': u'^1.1.0', u'babel-eslint': u'^4.0.10', u'webpack-core': u'^0.6.6'}
-
------------------------------------
-pom_1.xml
-pom.xml Dependencies
-1.   io.dropwizard dropwizard-core 0.8.4
-2.   org.projectlombok lombok 1.14.8
-3.   org.apache.kafka kafka_2.10 0.8.2.2.fk.3.patched
-4.   com.101tec zkclient 0.3
-5.   org.scala-lang scala-library 2.10.4
-6.   com.yammer.metrics metrics-core 2.2.0
-7.   net.sf.jopt-simple jopt-simple 3.2
-8.   org.objenesis objenesis 1.2
-9.   org.apache.kafka kafka-clients 0.8.2.2
-10.   org.apache.kafka kafka_2.10 0.8.2.2
-11.   io.dropwizard dropwizard-client 0.8.4
-12.   flipkart.scm java-cas-client 0.0.17.4-auth
-13.   com.flipkart.kloud.authn client 15.07.17.1
-14.   com.flipkart.kloud.authn dropwizard8-relying-party 15.07.17.1
-15.   redis.clients jedis 2.6.2
-16.   org.testng testng 6.8.13
-17.   commons-io commons-io 2.4
-18.   io.dropwizard dropwizard-assets 0.8.4
-19.   io.dropwizard dropwizard-metrics 0.8.4
-20.   org.apache.curator curator-framework 2.10.0
-21.   org.apache.curator curator-recipes 2.10.0
-22.   org.apache.curator curator-test 2.10.0
-23.   org.apache.zookeeper zookeeper 3.4.6
-24.   mysql mysql-connector-java 5.1.37
-25.   com.h2database h2 1.4.190
-26.   io.dropwizard dropwizard-db 0.8.4
-27.   io.dropwizard dropwizard-jdbi 0.8.4
-28.   io.dropwizard dropwizard-testing 0.8.4
-29.   com.flipkart.kloud.config client-java 1.0.9
-30.   com.xebialabs.restito restito 0.5
-31.   com.flipkart.messaging message-store 1.4.0
-
------------------------------------
-Gemfile.lock
-lock Dependencies
-DEPENDENCIES
-  actionpack
-  activeldap
-  activerecord (= 3.1.6.patched)
-  activerecord-import (= 0.3.2)
-  activerecord-jdbcmysql-adapter
-  activerecord_use_slave (= 0.0.5)
-  amqp
-  apl-bu-resolver (= 1.0.15)
-  apl-client (= 0.1.3)
-  apl-id-generator (= 0.0.19)
-  apl-library (= 0.7.7.8)
-  apl-metrics (= 0.1.2)
-  apl_id_generator (= 0.0.6.alpha)
-  apl_sequencer (= 0.0.9)
-  ci_reporter
-  database_cleaner
-  decimal-money (= 5.1.1.patched)
-  factory_girl
-  idempotency (= 0.0.6)
-  jruby-openssl (= 0.7.6.1.patched)
-  jruby-rack (= 1.1.4)
-  json (= 1.7.3)
-  mocha
-  mysql2 (= 0.3.16)
-  net-ldap
-  numbers_in_words (= 0.2.0)
-  padrino (= 0.10.5.patched)
-  rack (= 1.3.6)
-  rack-metrics (= 1.0.4)
-  rack-test
-  rake (= 10.0.3)
-  rest-client
-  rubycas-client (= 2.3.11.patched)
-  sc-auth (= 1.1.1)
-  sc-cache (= 0.0.13)
-  sc-core (= 1.1.67)
-  sc-lock (= 1.0.0)
-  sc-metrics
-  sc-mq (= 0.1.3.partitioned)
-  sc-rest-client (= 1.1.0)
-  sc-test-core (= 0.0.95)
-  shoulda (= 3.3.2)
-  shoulda-context (= 1.0.2)
-  shoulda-matchers (= 1.4.2)
-  simplecov
-  simplecov-rcov (= 0.2.3)
-  sinatra-flash
-  state_machine
-  test-unit (= 2.4.8)
-  thin (= 1.3.1)
-  transaction_isolation
-  trinidad
-  uuidtools
-  validates_timeliness
-  webmock (= 1.8.6)
-  xml-simple
-  yajl-ruby (= 1.1.0)
-  yard
-  yard-padrino
-  zk-lock (= 0.0.6)
-
-
------------------------------------
-pom.xml
-pom.xml Dependencies
+./POM 2/pom.xml
 1.   org.apache.commons commons-collections4 4.0
 2.   org.apache.commons commons-io 1.3.2
 3.   org.codehaus.jackson jackson-core-asl 1.9.13
@@ -123,8 +13,7 @@ pom.xml Dependencies
 12.   flipkart.platform.libraries.platform-utils base 2.3.5
 
 -----------------------------------
-requirements_2.txt
-Python Dependencies(.txt)
+./ Req 2/requirements.txt
 Flask==0.10.1
 Jinja2==2.7.3
 MarkupSafe==0.23
@@ -139,70 +28,29 @@ statsd==3.1
 uWSGI==2.0.11.1
 wsgiref==0.1.2
 -----------------------------------
-requirements.txt
-Python Dependencies(.txt)
-
-Django==1.8.4
-django-requestlogging==1.0.1
-requests==2.7.0
-simplejson==3.8.0
------------------------------------
-build.gradle
-build.gradle Dependencies
-
-        classpath GRADLE_PLUGIN_VERSION
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
-        classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:2.2.3'
-    
+./POM 1/pom.xml
+1.   org.apache.commons commons-collections4 4.0
+2.   org.apache.commons commons-io 1.3.2
+3.   org.codehaus.jackson jackson-core-asl 1.9.13
+4.   com.google.code.gson gson 2.6.1
+5.   com.fasterxml.jackson.core jackson-core 2.7.1
+6.   com.fasterxml.jackson.core jackson-annotations 2.7.2
+7.   org.apache.httpcomponents httpclient 4.5.1
+8.   junit junit 4.4
+9.   org.drools drools-compiler 6.0.1.Final
+10.   org.projectlombok lombok 1.16.6
+11.   org.yaml snakeyaml 1.11
+12.   flipkart.platform.libraries.platform-utils base 2.3.5
 
 -----------------------------------
-Dependencies.txt
-Python Dependencies(.txt)
-package.json
-JSON Dependencies
+./package.json
 Dependencies
 {u'form-serialize': u'^0.6.0', u'compression-webpack-plugin': u'^0.3.1', u'phrontend': u'0.0.3', u'keymirror': u'^0.1.1', u'react': u'^0.13.3', u'react-router': u'^0.13.3', u'classnames': u'^2.1.2', u'json-loader': u'^0.5.1', u'phrontend-webpack': u'0.0.2', u'fk-cp-shared': u'1.0.91'}
 devDependencies
 {u'webpack': u'^1.12.0', u'webpack-dev-middleware': u'^1.2.0', u'eslint': u'^1.1.0', u'babel-eslint': u'^4.0.10', u'webpack-core': u'^0.6.6'}
 
 -----------------------------------
-pom_1.xml
-pom.xml Dependencies
-1.   io.dropwizard dropwizard-core 0.8.4
-2.   org.projectlombok lombok 1.14.8
-3.   org.apache.kafka kafka_2.10 0.8.2.2.fk.3.patched
-4.   com.101tec zkclient 0.3
-5.   org.scala-lang scala-library 2.10.4
-6.   com.yammer.metrics metrics-core 2.2.0
-7.   net.sf.jopt-simple jopt-simple 3.2
-8.   org.objenesis objenesis 1.2
-9.   org.apache.kafka kafka-clients 0.8.2.2
-10.   org.apache.kafka kafka_2.10 0.8.2.2
-11.   io.dropwizard dropwizard-client 0.8.4
-12.   flipkart.scm java-cas-client 0.0.17.4-auth
-13.   com.flipkart.kloud.authn client 15.07.17.1
-14.   com.flipkart.kloud.authn dropwizard8-relying-party 15.07.17.1
-15.   redis.clients jedis 2.6.2
-16.   org.testng testng 6.8.13
-17.   commons-io commons-io 2.4
-18.   io.dropwizard dropwizard-assets 0.8.4
-19.   io.dropwizard dropwizard-metrics 0.8.4
-20.   org.apache.curator curator-framework 2.10.0
-21.   org.apache.curator curator-recipes 2.10.0
-22.   org.apache.curator curator-test 2.10.0
-23.   org.apache.zookeeper zookeeper 3.4.6
-24.   mysql mysql-connector-java 5.1.37
-25.   com.h2database h2 1.4.190
-26.   io.dropwizard dropwizard-db 0.8.4
-27.   io.dropwizard dropwizard-jdbi 0.8.4
-28.   io.dropwizard dropwizard-testing 0.8.4
-29.   com.flipkart.kloud.config client-java 1.0.9
-30.   com.xebialabs.restito restito 0.5
-31.   com.flipkart.messaging message-store 1.4.0
-
------------------------------------
-Gemfile.lock
-lock Dependencies
+./Gemfile.lock
 DEPENDENCIES
   actionpack
   activeldap
@@ -267,8 +115,7 @@ DEPENDENCIES
 
 
 -----------------------------------
-pom.xml
-pom.xml Dependencies
+./pom.xml
 1.   org.apache.commons commons-collections4 4.0
 2.   org.apache.commons commons-io 1.3.2
 3.   org.codehaus.jackson jackson-core-asl 1.9.13
@@ -283,18 +130,18 @@ pom.xml Dependencies
 12.   flipkart.platform.libraries.platform-utils base 2.3.5
 
 -----------------------------------
-requirements_2.txt
-Python Dependencies(.txt)
-Flask==0.10.1
-Jinja2==2.7.3
-MarkupSafe==0.23
-PyMySQL==0.6.3
-Werkzeug==0.10.4
-blinker==1.4
-httplib2==0.9.1
-iso8601==0.1.10
-itsdangerous==0.24
-raven==5.5.0
-statsd==3.1
-uW
+./requirements.txt
+
+Django==1.8.4
+django-requestlogging==1.0.1
+requests==2.7.0
+simplejson==3.8.0
+-----------------------------------
+./build.gradle
+
+        classpath GRADLE_PLUGIN_VERSION
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:2.2.3'
+    
+
 -----------------------------------
