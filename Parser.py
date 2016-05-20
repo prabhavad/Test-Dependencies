@@ -7,10 +7,7 @@ from pprint import pprint
 
 directory = ''
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 4066e580f1709eaf92d5dd0e1606593c46c6827d
 Files = ["package.json","requirements.txt","pom.xml","build.gradle","Gemfile.lock"]
 Op = open("Dependencies.txt","w")
 
@@ -121,13 +118,4 @@ def Scan():
 
 Scan()
 
-<<<<<<< HEAD
-=======
-for files in os.listdir(directory):
-	filename = files.split('.')
-	if(len(filename)==2 and filename[0]!=""):
-		if(files in Files):
-			#print filename[1]
-			Process(files,filename[1])
->>>>>>> 4066e580f1709eaf92d5dd0e1606593c46c6827d
 
